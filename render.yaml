@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: nutripath
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: ""
+    envVars:
+      - key: APP_ENV
+        value: production
